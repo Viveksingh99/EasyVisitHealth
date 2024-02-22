@@ -1,4 +1,5 @@
 import CategorySearch from "@/pages/CategorySearch";
+import DoctorList from "@/pages/DoctorList";
 import Hero from "@/pages/Hero";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <>
       <Hero />
       <CategorySearch />
+      <DoctorList />
     </>
   );
 }
